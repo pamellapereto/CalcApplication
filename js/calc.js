@@ -1,11 +1,4 @@
-/**
- * Author： www.mybry.com:dunizb
- * Date：2016/7/14 0014.
- */
 
-/**
- * APP配置信息
- */
 var appConfig = {
 	version: "3.1.0",
 	buildId: ".1510",
@@ -13,10 +6,7 @@ var appConfig = {
 };
 
 window.onload = function(){
-    //点击功能
     clickFunc();
-    //移动端滑动功能,历史记录
-    //swiperHistory();
 };
 
 function clickFunc(){
