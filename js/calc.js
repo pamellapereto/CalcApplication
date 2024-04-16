@@ -158,9 +158,7 @@ function clickFunc(){
                     val = resVal;
                 }
             }catch(error){
-                val = "<span
-
- style='font-size:1em;color:red'>Erro: Erro ao calcular!</span>";
+                val = "<span style='font-size:1em;color:red'>Erro: Erro ao calcular!</span>";
             }finally{
                 express.innerHTML = "";
                 res.innerHTML = val;
